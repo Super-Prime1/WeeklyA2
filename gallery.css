@@ -41,7 +41,16 @@ header a:hover{
     width: 200px;
 }
 
+.pictures{
+    display: flex;
+    justify-content: center;
+    margin: 25px 50px 50px 50px;
+}
 
+.pictures img{
+    margin: 10px;
+    border: solid 2px;
+}
 
 .Fdooter{
     height: 175px;
