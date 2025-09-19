@@ -9,7 +9,7 @@
     height: 300px;
     width: 100%;
     padding: 70px;
-    color: black;
+    color: #252525;
 }
 
 
@@ -27,7 +27,7 @@
 .section1 h1{
     background-color: white;
     width: 420px;
-    color: black;
+    color: #252525;
     padding: 20px;
     margin: 20px;
 }
@@ -35,7 +35,7 @@
 .section1 p {
     padding: 20px;
     margin: 20px;
-    background-color: black;
+    background-color: #252525;
 }
 
 .s1p1 {
@@ -75,38 +75,42 @@ nav ul li a {
 }
 
 header a:hover{
-    color:rgb(8, 167, 196);
+    color:#0BA39C;
 }
 
 .pictures{
+    height: 300px;
     display: flex;
     text-align: center;
-    margin: 20px;
     justify-content: center;
 }
 
 .p1{
-    margin: 20px 40px;
+    margin: 50px 40px;
+    height: 242px;
     border: solid 2px;
-    border-color: black;
+    border-color: #252525;
 }
 
 .p2{
-    margin: 20px 40px;
+    margin: 50px 40px;
+    height: 242px;
     border: solid 2px;
-    border-color: black;
+    border-color: #252525;
 }
 
 .p3{
-    margin: 20px 40px;
+    margin: 50px 40px;
+    height: 242px;
     border: solid 2px;
-    border-color: black;
+    border-color: #252525;
 }
 
 .Ptexts{
     display: flex;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
+    margin-bottom: 60px;
     justify-content: center;
 }
 
@@ -115,8 +119,19 @@ header a:hover{
 }
 
 .Fdooter{
-    height: 200px;
-    background-color: gray;
+    height: 175px;
+    background-color: #252525;
     display: flex;
+    justify-content: right;
 }
 
+.Ftext{
+    padding: 75px 600px 10px 150px;
+    color: white;
+}
+
+.Fimg{
+    height: 50px;
+    width: 100px;
+    padding: 75px 0px;
+}
